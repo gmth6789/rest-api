@@ -47,7 +47,7 @@ class IndexController {
   // 首页
   @Get('/')
   home(req, res) {
-    res.send("<div style='text-align:center'><a href='/xyadmin/'>点击打开UiAdmin通用后台</a>，账号admin密码uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
+    res.send("<div style='text-align:center'><a href='/xyadmin/'>ระบบหลังบ้านUiAdmin</a>，账号admin密码uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
   }
 }
 app.use(new IndexController())
