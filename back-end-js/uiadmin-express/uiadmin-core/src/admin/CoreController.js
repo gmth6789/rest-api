@@ -245,7 +245,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "总消费"
+                                  "value": "การบริโภคทั้งหมด"
                               }
                           },
                           {
@@ -267,31 +267,31 @@ class CoreController {
               },
               {
                       "type": "card",
-                      "title": "系统信息",
+                      "title": "ข้อความระบบ",
                       "content": [
                           {
                               "type": "text",
-                              "title": "服务器IP",
+                              "title": "เซิร์ฟเวอร์IP",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "WEB服务器",
+                              "title": "WEBเซิร์ฟเวอร์",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "JDK版本",
+                              "title": "JDKเวอร์ชัน",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "服务器时间",
+                              "title": "เวลาเซิร์ฟเวอร์",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "官方网站",
+                              "title": "เว็บไซต์อย่างเป็นทางการ",
                               "value": "https://jiangruyi.com(ijry@qq.com)"
                           }
                       ],
