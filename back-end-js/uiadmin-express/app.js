@@ -47,7 +47,7 @@ class IndexController {
   // 首页
   @Get('/')
   home(req, res) {
-    res.send("<div style='text-align:center'><a href='/xyadmin/'>ระบบหลังบ้านUiAdmin</a>，账号admin密码uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
+    res.send("<div style='text-align:center'><a href='/xyadmin/'>ระบบหลังบ้านUiAdmin</a>，USER: admin Pass: uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
   }
 }
 app.use(new IndexController())
@@ -204,13 +204,13 @@ class DemoController {
       .setFormValues({
         id: 123123,
         name: "text",
-        content: "测试",
+        content: "ทดสอบ",
         level: 2
       })
 
     res.json({
       code: 200,
-      msg: '成功',
+      msg: 'ความสำเร็จ',
       data: {
         formData: xyBuilderForm.getData()
       }
