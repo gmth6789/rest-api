@@ -70,8 +70,8 @@ class XyBuilderForm {
           'config': {
               'continue': false, // 显示继续添加
               'itemDefaultPosition': '',
-              'submitButtonTitle': '确认',
-              'cancelButtonTitle': '取消',
+              'submitButtonTitle': 'ตกลง',
+              'cancelButtonTitle': 'ยกเลิก',
               'footerButtonLength': '120px',
               'labelPosition': 'left',
               'labelWidth': '100px',

@@ -9,7 +9,7 @@ const config = {
   configs: {
       "uiadmin": {
           "site": {
-              "title": "UiAdmin-express",
+              "title": "แอดมิน",
               "logo": "",
               "logoTitle": "",
               "logoBadge": ""
