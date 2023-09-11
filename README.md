@@ -1,11 +1,4 @@
-[![Build Status](https://travis-ci.org/ijry/initadmin.svg?branch=master)](https://travis-ci.org/ijry/initadmin)
-![Downloads](https://img.shields.io/badge/downloads-1K-brightgreen.svg)
-![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)
-![builder](https://img.shields.io/badge/xybuilder-1.2.0-brightgreen.svg)
-![cloudadmin](https://img.shields.io/badge/xyadmin-1.2.0-brightgreen.svg)
-![RepoSize](https://img.shields.io/github/repo-size/ijry/initadmin.svg)
-![Star](https://img.shields.io/github/stars/ijry/initadmin.svg?style=social)
-[![Open in Visual Studio Code](https://img.shields.io/badge/-open%20in%20vscode-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/ijry/uiadmin)
+
 
 
 ## 介绍
