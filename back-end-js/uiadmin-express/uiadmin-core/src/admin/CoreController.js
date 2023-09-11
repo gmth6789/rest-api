@@ -178,7 +178,7 @@ class CoreController {
     let menuTree = list2tree(menuList, null)
     res.json({
         "code": 200,
-        "msg": "成功",
+        "msg": "ความสำเร็จ",
         "data": {
             "menu2routes": true,
             "listData": {
@@ -217,7 +217,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "注册用户"
+                                  "value": "สมาชิกทั้งหมด"
                               }
                           },
                           {
@@ -231,7 +231,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "ใหม่วันนี้"
+                                  "value": "สมาชิกใหม่วันนี้"
                               }
                           },
                           {
@@ -245,7 +245,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "การบริโภคทั้งหมด"
+                                  "value": "รายการถอนทั้งหมด"
                               }
                           },
                           {
@@ -259,7 +259,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "今日消费"
+                                  "value": "รายการถอนวันนี้"
                               }
                           }
                       ],
@@ -271,7 +271,7 @@ class CoreController {
                       "content": [
                           {
                               "type": "text",
-                              "title": "เซิร์ฟเวอร์IP",
+                              "title": "เซิร์ฟเวอร์",
                               "value": ""
                           },
                           {
@@ -291,34 +291,34 @@ class CoreController {
                           },
                           {
                               "type": "text",
-                              "title": "เว็บไซต์อย่างเป็นทางการ",
-                              "value": "https://jiangruyi.com(ijry@qq.com)"
+                              "title": "หน้าบ้าน",
+                              "value": "https://mission-th.com"
                           }
                       ],
                       "span": 12
               },
               {
                       "type": "card",
-                      "title": "项目信息",
+                      "title": "ข้อมูลโครงการ",
                       "content": [
                           {
                               "type": "text",
-                              "title": "项目名称",
+                              "title": "ชื่อโครงการ",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "项目口号",
+                              "title": "สโลแกนโครงการ",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "项目简介",
+                              "title": "รายละเอียดโครงการ",
                               "value": ""
                           },
                           {
                               "type": "text",
-                              "title": "ICP备案号",
+                              "title": "หมายเลขธุระกรรม",
                               "value": ""
                           }
                       ],
