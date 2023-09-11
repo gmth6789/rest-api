@@ -23,7 +23,7 @@ const config = {
                   {
                       "id": 1,
                       "name": "super_admin",
-                      "title": "超级管理员",
+                      "title": "ผู้ดูแลระบบระดับสูง",
                       "menus": "",
                       "status": 1
                   },
