@@ -71,7 +71,7 @@ class CoreController {
         "msg": "success",
         "data": {
             "framework": "express",
-            "stype": "应用",
+            "stype": "แอปพลิเคชัน",
             "name": "uiadmin-express",
             "api": {
                 "apiLogin": "/v1/admin/user/login",
@@ -112,7 +112,7 @@ class CoreController {
         || !req.body.password == 'uiadmin') {
         res.json({
             "code": 0,
-            "msg": "账号或密码错误",
+            "msg": "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง",
             "data": {
             }
         })
@@ -123,7 +123,7 @@ class CoreController {
             if (req.body.password == user.password) {
                 res.json({
                     "code": 200,
-                    "msg": "登录成功",
+                    "msg": "เข้าสู่ระบบสำเร็จ",
                     "data": {
                         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI",
                         "userInfo": user
@@ -133,7 +133,7 @@ class CoreController {
             } else {
                 res.json({
                     "code": 0,
-                    "msg": "密码错误",
+                    "msg": "รหัสผ่านผิด",
                     "data": {}
                 })
                 return
@@ -142,7 +142,7 @@ class CoreController {
     });
     res.json({
         "code": 0,
-        "msg": "用户不存在",
+        "msg": "ไม่มีผู้ใช้อยู่",
         "data": {}
     })
   }
@@ -151,13 +151,13 @@ class CoreController {
   userInfo(req, res) {
     res.json({
         "code": 200,
-        "msg": "成功",
+        "msg": "ความสำเร็จ",
         "data": {
             "userInfo": {
                 "id": 1,
                 "nickname": "admin",
                 "username": "admin",
-                "country": "+86",
+                "country": "+66",
                 "mobile": "",
                 "email": "",
                 "avatar": "",
@@ -169,10 +169,10 @@ class CoreController {
     })
   }
 
-  @MenuItem({title: "系统", path: "/_system", pmenu: "/default_root", menuType: -1, sortnum: 99, icon: "xyicon-settings"})
-  @MenuItem({title: "开发工具", path: "/dev", pmenu: "/_system", menuType: 0, sortnum: 0})
-  @MenuItem({title: "内容", path: "/_content", pmenu: "/default_root", menuType: -1, sortnum: 10, icon: "xyicon-plane"})
-  @MenuItem({title: "内容管理", path: "/content", pmenu: "/_content", menuType: 0, sortnum: 0})
+  @MenuItem({title: "ระบบ", path: "/_system", pmenu: "/default_root", menuType: -1, sortnum: 99, icon: "xyicon-settings"})
+  @MenuItem({title: "เครื่องมือในการพัฒนา", path: "/dev", pmenu: "/_system", menuType: 0, sortnum: 0})
+  @MenuItem({title: "เนื้อหา", path: "/_content", pmenu: "/default_root", menuType: -1, sortnum: 10, icon: "xyicon-plane"})
+  @MenuItem({title: "การจัดการเนื้อหา", path: "/content", pmenu: "/_content", menuType: 0, sortnum: 0})
   @Get('/api/v1/admin/menu/trees')
   admin_menu_trees(req, res) {
     let menuTree = list2tree(menuList, null)
