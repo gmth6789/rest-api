@@ -47,12 +47,12 @@ class IndexController {
   // 首页
   @Get('/')
   home(req, res) {
-    res.send("<div style='text-align:center'><a href='/xyadmin/'>ระบบหลังบ้านUiAdmin</a>，ยูส: admin รหัส: uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
+    res.send("<div style='text-align:center'><a href='/xyadmin/'>ระบบจัดการ หลังบ้าน UiAdmin</a>，ยูส: admin รหัส: uiadmin。</div><iframe style='width: 100%;height: calc(100vh - 20px)' src='/xyadmin/'></iframe>")
   }
 }
 app.use(new IndexController())
 
-// 文章管理后台控制器（演示DEMO）
+// ตัวควบคุมพื้นหลังการจัดการบทความ (สาธิต DEMO)
 @Controller
 class DemoController {
   @RootUrl('/api')
@@ -141,7 +141,7 @@ class DemoController {
         minWidth: "120px"
       })
       .addRightButton("edit", "ปรับปรุงใหม่", {
-        title: "修改",
+        title: "แก้ไข",
         pageType: "modal",
         modalType: "form",
         api: "/v1/admin/demo/edit",
@@ -183,7 +183,7 @@ class DemoController {
     });
   }
 
-  @MenuItem({title: "การปรับเปลี่ยนบทความ", path: "/demo/edit", pmenu: "/demo/lists", menuType: 2,
+  @MenuItem({title: "แก้ไขบทความ", path: "/demo/edit", pmenu: "/demo/lists", menuType: 2,
     routeType: "form", apiSuffix: "", apiParams: "", apiMethod: "GET", sortnum: 0})
   @Get('/v1/admin/demo/edit/:id')
   edit(req, res) {

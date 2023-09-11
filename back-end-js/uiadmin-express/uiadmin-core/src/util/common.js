@@ -30,7 +30,7 @@ const config = {
                   {
                       "id": 2,
                       "name": "admin",
-                      "title": "管理员",
+                      "title": "ผู้ดูแลระบบ",
                       "status": 1,
                       "menus": [
                           "/v1/admin/demo/lists"
