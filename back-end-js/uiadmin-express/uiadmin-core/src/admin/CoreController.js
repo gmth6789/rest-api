@@ -231,7 +231,7 @@ class CoreController {
                                   "value": "0"
                               },
                               "content": {
-                                  "value": "今日新增"
+                                  "value": "ใหม่วันนี้"
                               }
                           },
                           {
