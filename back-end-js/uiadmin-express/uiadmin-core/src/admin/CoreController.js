@@ -261,7 +261,21 @@ class CoreController {
                               "content": {
                                   "value": "รายการถอนวันนี้"
                               }
-                          }
+                          },
+                          {
+                            "item": {
+                                "bgColor": "#ed4014",
+                                "icon": "ivu-icon ivu-icon-ios-paper-plane",
+                                "title": ""
+                            },
+                            "current": {
+                                "suffix": "",
+                                "value": "0"
+                            },
+                            "content": {
+                                "value": "ภารกิจทั้งหมด"
+                            }
+                        }
                       ],
                       "span": 24
               },
