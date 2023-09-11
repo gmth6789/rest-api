@@ -14,12 +14,12 @@ uiadmin:
     user-role:
       - id: 1
         name: super_admin
-        title: 超级管理员
+        title: ผู้ดูแลระบบระดับสูง
         menus: ""
         status: 1
       - id: 2
         name: admin
-        title: 管理员
+        title: ผู้ดูแลระบบ
         menus:
           - "/v1/admin/demo/lists"
         status: 1
