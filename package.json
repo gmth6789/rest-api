@@ -16,4 +16,7 @@
   "keywords": [
     "uiadmin"
   ],
+  "author": "jry",
+  "license": "Apache2",
+  "website": "https://uiadmin.net"
 }
